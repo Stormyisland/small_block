@@ -1,0 +1,10 @@
+import hashlib 
+import json
+import time
+import ecdsa
+from typing import List
+
+class Transacions:
+   def __init__(self, sender, recipient, amount,signature= ''):
+      self.sender = sender 
+      self.sender = sender
