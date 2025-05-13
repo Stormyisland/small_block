@@ -5,6 +5,10 @@ import ecdsa
 from typing import List
 
 class Transacions:
-   def __init__(self, sender, recipient, amount,signature= ''):
+   def __init__(self, sender, recipient, amount, signature= ''):
       self.sender = sender 
-      self.sender = sender
+      self.recipient = recipient
+      self.amount = amount
+      self.signature = signature 
+
+   def to_dic(
