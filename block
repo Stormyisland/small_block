@@ -11,4 +11,4 @@ class Transacions:
       self.amount = amount
       self.signature = signature 
 
-   def to_dic(
+
